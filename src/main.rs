@@ -6,6 +6,6 @@ fn main() {
         x += "emem";
         println!("{}",x);
     }
-    x = 1;
+    x = "one";
     println!("x is: {}", x);
 }
