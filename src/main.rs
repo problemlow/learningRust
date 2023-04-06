@@ -3,7 +3,7 @@ fn main() {
     let mut x = "meme";
     println!("x is: {}", x);
     {
-        x += "emem";
+        x = x+"emem";
         println!("{}",x);
     }
     x = "one";
