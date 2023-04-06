@@ -4,7 +4,7 @@ fn main() {
     println!("x is: {}", x);
     {
         x += 2;
-        println!("x is: {}", x);
+        println!("{}",x);
     }
     x += 1;
     println!("x is: {}", x);
