@@ -1,11 +1,7 @@
 fn main() {
     println!("Hello, world!");
-    let mut x = "meme";
+    let mut x: String = meme;
     println!("x is: {}", x);
-    {
-        x = x+"emem";
-        println!("{}",x);
-    }
-    x = "one";
+    x = x+"emem";
     println!("x is: {}", x);
 }
